@@ -13,7 +13,6 @@ main {
     width: 960px;
     margin: 50px auto;
     display: flex;
-
 }
 
 .box {
@@ -64,6 +63,11 @@ footer {
 
 @media screen and (max-width: 768px) {
     main {
+        width: 100%;
         display: block;
+    }
+    .box {
+        width: 90%;
+        margin: 0 auto 20px;
     }
 }
